@@ -988,12 +988,12 @@ int main(int argc, char *argv[])
     ImagePath[0] = '\0';
     OutputPath[0] = '\0';
  
-    // http://upload.wikimedia.org/wikipedia/en/
-    // http://upload.wikimedia.org/wikipedia/commons/
+    // https://upload.wikimedia.org/wikipedia/ja/
+    // https://upload.wikimedia.org/wikipedia/commons/
     iPath[0] = '\0';
     cPath[0] = '\0';
-    strcpy(iPath, "http://upload.wikimedia.org/wikipedia/en/");
-    strcpy(cPath, "http://upload.wikimedia.org/wikipedia/commons/");
+    strcpy(iPath, "https://upload.wikimedia.org/wikipedia/ja/");
+    strcpy(cPath, "https://upload.wikimedia.org/wikipedia/commons/");
  
     for (i=0; i < argc; i++)
     {
